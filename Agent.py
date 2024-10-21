@@ -2,7 +2,7 @@ import torch
 import random
 import numpy as np
 import torch.optim as optim
-from Network import QNetwork
+from model.Network import QNetwork
 from Replay_Buffer import ReplayBuffer
 
 
